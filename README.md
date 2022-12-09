@@ -1,5 +1,5 @@
 # freeCodeCamp.org's Open Source Curriculum
-This repo contains the coursework completed through freeCodeCamp first of ten core certifications: [Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/) completed by [0xSenzel](https://github.com/0xsenzel). <br/>
+This repo contains the coursework completed through freeCodeCamp first of ten core certifications: [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) completed by [0xSenzel](https://github.com/0xsenzel). <br/>
 
 The syallabus from this course covers:
 1. Basic HTML and HTML5
