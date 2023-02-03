@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">My Coding Survey Form</h1>
+    <p id="description">Thank you for taking the time to help me improve my coding skills</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name
+          <input id="name" type="text" placeholder="Enter your name here" required/>
+        </label>
+
+        <label id="email-label">Email
+          <input id="email" type="email" placeholder="Enter your Email here" required/>
+        </label>
+
+        <label id="number-label">Age(optional)
+          <input id="number" type="number" placeholder="Select your age here" min="1" max="120"/>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <a>Which option best describes your current role? </a>
+          <select id="dropdown">
+            <option disabled selected>Select Current Role</option>
+            <option>Front-End Developer</option>
+            <option>Back-End Developer</option>
+            <option>Fullstack Developer</option>
+            <option>Technical Writer</option>
+            <option>Other</option>
+          </select>
+      </fieldset>
+
+      <fieldset>
+      <a>What do you think of my survey form?</a>
+      <label>
+        <input class="inline"  id="radio-definitely" type="radio" name="recommendation" value="1"/>Great
+        </label>
+        <label>
+        <input class="inline" id="radio-maybe" type="radio" name="recommendation" value="2"/>Not Bad
+        </label>
+        <label>
+        <input class="inline"  id="radio-notsure" type="radio" name="recommendation" value="3"/>Buu...
+      </label>
+      </fieldset>
+
+      <fieldset>
+      <a>What would you like to see improved?</a> <a class="smaller-text">(Check all that apply)</a>
+      <label>
+        <input class="inline"  type="checkbox" value="1"/>Form Layout
+        </label>
+        <label>
+        <input class="inline"  type="checkbox" value="2"/>Background Images
+        </label>
+        <label>
+        <input class="inline"  type="checkbox" value="3"/>Colour Combinations
+        </label>
+        <label>
+        <input class="inline"  type="checkbox" value="4"/>Code (sob sob)
+      </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Any comments or suggestions?
+          <textarea class="top-margin" id="comment" name="comment" rows="5" cols="62" placeholder="Enter your comment here..."></textarea>
+          </label>
+      </fieldset>
+      <input id="submit" type="submit"/>
+    </form/>
+  </body>
+</html>
