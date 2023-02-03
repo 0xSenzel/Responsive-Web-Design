@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-weight:normal;
+}
+
+h1 {
+  margin: 2em auto 0em;
+  text-align: center;
+  font-family:Trebuchet MS;
+  font-size: 25px;
+  font-weight:light;
+}
+
+p {
+  margin: 0.5em auto 1em;
+  text-align: center;
+  font-family:Tahoma;
+  font-size: 14px;
+  font-style: italic;
+  font-weight:light;
+}
+
+form {
+  width: 100vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  background-color:brown;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0.5rem;
+  text-align: left;
+}
+
+label, input, select {
+  display: inline-block;
+  width: 100%;
+  margin-top: 8px;
+  min-height: 25px;
+  font-family: Consolas;
+  font-size: 17px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.top-margin {
+  margin-top: 10px;
+}
+
+input#submit {
+  display: block;
+  margin: 1em auto;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 95%;
+}
+
+input#submit:hover {
+  background-color: lightblue;
+}
+
+
+a {
+  font-family: Consolas;
+  font-size: 18px;
+}
+
+a.smaller-text {
+  font-size: 14px;
+}
+
+
